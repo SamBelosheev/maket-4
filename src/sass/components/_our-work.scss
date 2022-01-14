@@ -1,0 +1,27 @@
+.our-work{
+  background-color: #0E0E33;
+  @extend %font-prim;
+  color: #FFFFFF;
+  padding-left: 180px;
+  padding-right: 214px;
+}
+
+.our-work-title{
+  padding-top: 150px;
+  font-size: 41px;
+  display: flex;
+  justify-content: center;
+}
+
+.our-work-info{
+  padding-top: 40px;
+  padding-bottom: 500px;
+}
+
+.work-title{
+  font-size: 42px;
+}
+
+.work-text{
+  font-size: 11px;
+}

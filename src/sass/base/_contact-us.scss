@@ -1,0 +1,68 @@
+.contact-us{
+  background-color: #FFFFFF;
+  padding-top: 150px;
+}
+
+.contact-us-title{
+  @extend %font-prim;
+  font-size: 41px;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-us-text{
+  @extend %font-prim;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  color: #737373;
+}
+
+.categoreges-us{
+  @extend %font-prim;
+  font-size: 23px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contact-us-box{
+  border: 1px solid #E8E8E8;
+  box-sizing: border-box;
+  margin-bottom: 40px;
+
+}
+
+.box-title{
+  @extend %font-prim;
+  font-size: 19px;
+  padding-left: 40px;
+}
+
+.box-text{
+  @extend %font-prim;
+  font-size: 16px;
+  padding-left: 40px;
+  padding-right: 60px;
+  color: #737373;
+}
+
+.contact-us-button-div{
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 150px;
+}
+
+.contact-us-button{
+  @extend %font-prim;
+  font-size: 15px;
+  width: 174px;
+  height: 60px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  background-color: #0A8BFE;
+  color: #FFFFFF;
+  cursor: pointer;
+  &:hover{
+    color: gold;
+  }
+}

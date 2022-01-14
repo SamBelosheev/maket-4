@@ -1,0 +1,30 @@
+.under-header-info{
+  margin-top: -40px;
+  display: flex;
+  @extend %font-prim;
+  background-color: #FFFFFF;
+  box-shadow: 0 2px 10px 10px rgba(0, 0, 0, 0.05);
+  justify-content: space-evenly;
+}
+
+.info-big{
+  font-size: 26px;
+  padding-top: 96px;
+  padding-bottom: 85px;
+}
+
+.info-small{
+  font-size: 11px;
+  color: #737373;
+  padding-top: 116px;
+}
+
+.info-centre{
+  font-size: 16px;
+  color: #737373;
+}
+
+.small-2{
+  padding-top: 71px;
+}
+
