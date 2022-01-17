@@ -1,4 +1,4 @@
-.kickstart, .faq, .Resources, .approved, .request-button, .request-fon, .city-name, .city-development-app, .partnership-title, .relationships-text, .relationships-title, .see-more-button, .see-more, .our-work, .contact-us-button, .box-text, .box-title, .categoreges-us, .contact-us-text, .contact-us-title, .under-header-info, .header-button-down, .header-down-text2, .header-down-text1, .header-button, .navigations-links {
+.kickstart, .faq, .Resources, .approved, .request-button, .request-fon, .city-name, .city-development-app, .partnership-title, .relationships-text, .relationships-title, .see-more-button, .see-more, .our-work, .footer, .contact-us-button, .box-text, .box-title, .categoreges-us, .contact-us-text, .contact-us-title, .under-header-info, .header-button-down, .header-down-text2, .header-down-text1, .header-button, .navigations-links {
   font-family: "Roboto", sans-serif;
 }
 
@@ -159,6 +159,45 @@
 }
 .contact-us-button:hover {
   color: gold;
+}
+
+.footer {
+  background-color: #0E0E33;
+  color: #FFFFFF;
+}
+
+.footer-logo-string {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 110px;
+  padding-bottom: 55px;
+  font-size: 15px;
+}
+
+.footer-box {
+  padding-top: 120px;
+  padding-bottom: 140px;
+}
+
+.footer-box-title {
+  font-size: 20px;
+}
+
+.footer-box-link {
+  padding-bottom: 11px;
+  font-size: 15px;
+  border-bottom: solid 1px;
+  border-color: #FFFFFF;
+}
+
+.footer-navigation {
+  border-top: solid 1px;
+  border-color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 30px;
+  padding-top: 30px;
 }
 
 .our-work {
@@ -488,6 +527,8 @@
 .kickstart-profeshions {
   display: flex;
   justify-content: space-between;
+  width: 100%;
+  padding-bottom: 120px;
 }
 
 .proffeshion-button {
@@ -500,14 +541,6 @@
   width: 180px;
   height: 60px;
   margin: 10px;
-}
-
-.proffeshion-skroll-left {
-  margin-right: 20px;
-}
-
-.proffeshion-skroll-right {
-  margin-left: 20px;
 }
 
 .conteyner {
