@@ -342,7 +342,7 @@
 }
 
 .request-fon {
-  background-image: url("./img/request/request-fon.svg");
+  background-image: url("../src/img/request/request-fon.svg");
   height: 950px;
 }
 
