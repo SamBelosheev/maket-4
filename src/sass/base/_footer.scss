@@ -1,0 +1,41 @@
+.footer{
+  background-color: #0E0E33;
+  color: #FFFFFF;
+  @extend %font-prim;
+}
+
+
+.footer-logo-string{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 110px;
+  padding-bottom: 55px;
+  font-size: 15px;
+}
+
+.footer-box{
+  padding-top: 120px;
+  padding-bottom: 140px;
+}
+
+.footer-box-title{
+  font-size: 20px;
+}
+
+.footer-box-link{
+  padding-bottom: 11px;
+  font-size: 15px;
+  border-bottom: solid 1px;
+  border-color: #FFFFFF;
+}
+
+.footer-navigation{
+  border-top: solid 1px;
+  border-color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+

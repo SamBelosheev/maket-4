@@ -1,0 +1,38 @@
+.kickstart{
+  @extend %font-prim;
+}
+
+.kickstart-conteyner{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.kickstart-title{
+  font-size: 42px;
+}
+
+.kickstart-text{
+  font-size: 11px;
+  color: #737373;
+}
+
+.kickstart-profeshions{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-bottom: 120px;
+}
+
+.proffeshion-button{
+  color: #0A8BFE;
+  font-size: 15px;
+  background-color: transparent;
+  border: 2px solid #E8E8E8;
+  box-sizing: border-box;
+  border-radius: 30px;
+  width: 180px;
+  height: 60px;
+  margin: 10px;
+}
+

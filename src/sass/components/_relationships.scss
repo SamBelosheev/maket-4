@@ -1,0 +1,29 @@
+.relationships{
+  display: flex;
+  flex-direction: column;
+}
+
+.relationships-title{
+  @extend %font-prim;
+  font-size: 41px;
+  display: flex;
+  justify-content: center;
+}
+
+.relationships-text{
+  @extend %font-prim;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 70px;
+}
+
+.relationships-brends{
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-bottom: 60px;
+}
+
+.relationships-brend{
+  padding: 20px;
+}

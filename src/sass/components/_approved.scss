@@ -1,0 +1,28 @@
+.approved{
+  background-color: #FAFAFA;
+  @extend %font-prim;
+  padding-top: 150px;
+}
+
+.approved-conteyner{
+  margin-left: 105px;
+}
+
+.approved-title{
+  font-size: 41px;
+}
+
+.approved-text{
+  font-size: 16px;
+  width: 469px;
+}
+
+.approved-baners{
+  display: flex;
+  padding-top: 40px;
+  padding-bottom: 150px;
+}
+
+.approved-baner{
+  padding-right: 30px;
+}

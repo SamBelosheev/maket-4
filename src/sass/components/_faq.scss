@@ -1,0 +1,31 @@
+.faq{
+  @extend %font-prim;
+  background-color: #FAFAFA;
+}
+
+.faq-conteyner{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 120px;
+}
+
+.faq-title{
+  font-size: 42px;
+  padding-bottom: 20px;
+}
+
+.faq-text{
+  font-size: 13px;
+  padding-bottom: 80px;
+}
+
+.faq-jumper{
+  padding-bottom: 20px;
+  padding-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid 1px;
+  border-color: #E8E8E8;
+}

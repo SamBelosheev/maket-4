@@ -1,0 +1,38 @@
+.partnerships{
+  display: flex;
+  flex-direction: column;
+}
+
+.partnership-title{
+  @extend %font-prim;
+  font-size: 42px;
+  display: flex;
+  justify-content: center;
+}
+
+.city-partnership{
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  padding-bottom: 30px;
+  padding-top: 30px;
+  width: 365px;
+  margin-bottom: 30px;
+}
+
+.city-development-app{
+  @extend %font-prim;
+  font-size: 15px;
+  color: #737373;
+  margin-left: 20px;
+}
+
+.city-name{
+  @extend %font-prim;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.city-image{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 25px;
+}
